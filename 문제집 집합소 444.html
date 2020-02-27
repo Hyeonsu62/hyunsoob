@@ -1,0 +1,249 @@
+<html>
+<head>
+  <title>Touch of Purple</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+  <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+  <!-- Waterwheel Carousel -->
+  <script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+  <script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/mystyle.css') }}">
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+  <!-- / Waterwheel Carousel -->
+
+  <script>
+    function subject() {
+      alert('기능이 없습니다');
+    }
+  </script>
+
+  <style>
+    @charset "utf-8";
+
+    #waterwheelCarousel{display:block; width:960px; height:250px; margin:0 auto; padding:20px 0 0 0; background-color:#FFFFFF;}
+    #waterwheelCarousel > img{display:none; cursor:pointer;}
+
+    form, fieldset, legend{margin:0; padding:0; border:none;}
+    legend{display:none;}
+    input, textarea, select{font-size:12px; font-family:Georgia, "Times New Roman", Times, serif;}
+
+    /* ----------------------------------------------Search Form------------------------------------- */
+
+    #topbar input{display:block; float:left; width:90px; margin:0 5px 0 0; padding:5px; color:#FABCBC; background-color:#FFFFFF; border:1px solid #A5066D; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;}
+    #topbar input#go{width:80px; height:26px; margin:0; padding:5px 0; text-transform:uppercase; color:#FABCBC; background-color:#FFFFFF; cursor:pointer; font-weight:bold;}
+
+    /* ----------------------------------------------Newsletter------------------------------------- */
+
+
+
+    html{overflow-y:scroll;}
+    body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#FABCBC; background-color:#FFFFFF;}
+
+    .justify{text-align:justify;}
+    .bold{font-weight:bold;}
+    .center{text-align:center;}
+    .right{text-align:right;}
+    .nostart{margin:0; padding:0; list-style-type:none;}
+
+    .clear{clear:both;}
+    br.clear{clear:both; margin-top:-15px;}
+
+    a{outline:none; text-decoration:none;}
+
+    .fl_left, .imgl{float:left;}
+    .fl_right, .imgr{float:right;}
+
+    div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+    div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0 0 15px 0; padding:0; font-size:20px; font-weight:normal; line-height:normal;}
+    .col1 a{color:#FABCBC; background-color:#FFFFFF;}
+    .col2{color:#FABCBC; background-color:#FABCBC;width:30px; }
+    .col3{color:#FABCBC; background-color:#FFFFFF; padding:20px 0;}
+    .col4{color:#FABCBC; background-color:#FFFFFF;}
+    .col4 a{color:#FABCBC; background-color:#FFFFFF;}
+    .col5{color:#000000; background-color:#dcdcdc; border-top:1px dotted #E7BCE2; border-bottom:1px dotted #E7BCE2;}
+    .col5 a{color:#000000; background-color:#dcdcdc;}
+    .col6, .col6 a{color:#FABCBC; background-color:#FFFFFF;}
+
+    /* ----------------------------------------------Generalise------------------------------------- */
+
+    #header, #topbar, #breadcrumb, #featured_intro, #container, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
+
+    /* ----------------------------------------------Header------------------------------------- */
+
+    #header{padding:15px; text-align: center; font-size: 20px;}
+    #header .fl_left{display:block; float:left; margin-top:13px; overflow:hidden;}
+    #header .fl_right{display:block; float:right; width:468px; height:60px; margin-top:17px; overflow:hidden;}
+    #header h1, #header p, #header ul{margin:0; width:880px; padding:3px; list-style:none; line-height:normal;}
+    #header h1 a{font-size:56px; color:#FABCBC; background-color:#FFFFFF;}
+    #header .fl_left p{margin-top:5px;}
+
+    /* ----------------------------------------------Topbar------------------------------------- */
+
+    #topbar{padding:0; z-index:1000;}
+    #topbar #search{display:block; float:right; width:243px; margin:10px 0 0 0; padding:0;}
+
+  
+    /* ----------------------------------------------Footer------------------------------------- */
+
+    #footer{padding:25px;}
+    #footer h2, #footer p, #footer ul, #footer a{margin:0; padding:0; font-weight:normal; list-style:none; line-height:normal;}
+    #footer p{line-height:1.6em;}
+    #footer h2{text-align:center; padding:0 0 5px 0; color:#000000; background-color:#dcdcdc; border-bottom:1px dotted #585858; font-size:16px; font-weight:bold; margin-bottom:20px;width:150px;}
+    #footer li{margin-bottom:15px;}
+    #footer .footbox{display:block; float:left; width:190px; margin:0 40px 0 0; padding:0; font-size:20px;}
+    #footer .flickr li{display:block; float:left; width:70px; height:80px; margin:0 7px 15px 7px; padding:4px; border:1px solid #E7BCE2;}
+    #footer .banners li{display:block; width:150px; height:210px; margin:0 0 15px 0; padding:4px; border:1px solid #E7BCE2;}
+    #footer .last{margin:0;}
+    #footer .twitter{width:150px; }
+
+    /* ----------------------------------------------Copyright------------------------------------- */
+
+    #copyright{padding:15px 0;}
+    #copyright p{margin:0; padding:0;}
+
+    a{
+      color:#FFFFFF; 
+    }
+
+    #topnav{text-align:center; width:900px; font-size: 30px; padding:1px; word-spacing: 20px; margin:-20px; height:50px; }
+    * {
+      font-family: 'Stylish', sans-serif;
+    }
+
+    body {
+      max-width: 900px;
+      margin: auto;
+    }
+    .card-columns{
+      padding:10px;
+    }
+
+    .comment {
+      color: blue;
+      font-weight: bold;
+    }
+    .card-title{
+      color:black;
+    }
+
+  </style>
+
+</head>
+<body id="top">
+  <div class="wrapper col1">
+    <div id="header">
+     <h1><a href="https://www.instagram.com/off_benecia/?hl=ko">문제집 집합소</a></h1>
+   </div>
+   <div class="fl_right"><a href="#"><img src="images/demo/468x60.gif" alt="" /></a></div>
+   <br class="clear" />
+ </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="https://www.instagram.com/off_benecia/?hl=ko"onclick="subject()">국어</a>
+         <li2><a href="https://www.instagram.com/off_benecia/?hl=ko" onclick="subject()"> 수학</a></li2>
+         <li3><a href="https://www.instagram.com/off_benecia/?hl=kol"onclick="subject()"> 영어</a></li3>
+         <li4><a href="https://www.instagram.com/off_benecia/?hl=ko"onclick="subject()"> 탐구</a>
+         </li4>
+       </li>
+     </ul>
+   </div>
+   <div id="search">
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Search subject</legend>
+        <input type="text" value="Search Our Website&hellip;"  onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+        <input type="submit" name="go" id="go" value="Search" />
+      </fieldset>
+    </form>
+  </div>
+  <br class="clear" />
+</div>
+</div>
+<div class="card-columns card-post" id="post-cards">
+  <div class="card">
+    <img class="card-img-top" src="http://shop1.phinf.naver.net/20200131_105/1580430328984SWs30_JPEG/17782497990575725_1094841474.jpg" alt="Card image cap"  height="300">
+    <div class="card-body">
+      <h5 class="card-title">자이스토리 고3 수학 가형</h5>
+      <p class="card-text">책특징</p>
+      <p class="card-text comment">가격 및 대상</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="http://cafefiles.naver.net/MjAyMDAxMTNfMTM2/MDAxNTc4OTEyMTk4OTc2.rlBndRpWag2r6ogdXnP_Gb44qMt2Df1k7cvmp0x0Eq8g.oB1aMrqGWwr4urtdh_N5iT9Rftg1AUchliOaCTLczJ4g.PNG/%BC%F6%B4%C9%C6%AF%B0%AD.png" alt="Card image cap"height="300">
+    <div class="card-body">
+      <h5 class="card-title">책이름</h5> 
+      <p class="card-text">책의 특징</p>
+      <p class="card-text comment">가격 및 대상</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="http://blogfiles.naver.net/MjAxOTEyMzBfMjg1/MDAxNTc3Njg3ODE1Nzky.CjWEc7fSiRz4u35yh_qc-43wZdAVfjL5YMG4lhmjvscg.YLRvr4VgQov8GtDEANu0A7QfHGJJaBICmCHYCU-J1bgg.PNG.gqqowfg4r0b/%25B0%25AD%25C0%25C7%25B3%25EB%25C6%25AE%2B%25BC%25F6%25B4%25C9%25B0%25B3%25B3%25E4%2B%25B0%25ED%25B5%25EE%2B%25B1%25B9%25BE%25EE%2B%25C0%25B1%25C7%25FD%25C1%25A4%25C0%25C7%2B%25B0%25B3%25B3%25E4%25C0%25C7%2B%25B3%25AA%25BA%25F1%25C8%25BF%25B0%25FA%2B2021%2B%25BC%25F6%25B4%25C9%25B4%25EB%25BA%25F1.jpg" alt="Card image cap"height="300">
+    <div class="card-body">
+      <h5 class="card-title">책이름</h5> 
+      <p class="card-text">책의 특징</p>
+      <p class="card-text comment">가격 및 대상</p>
+    </div>
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="footer">
+    <div class="footbox twitter">
+      <h2>오늘의 한마디</h2>
+      <ul>
+       수능 D-????
+             오늘은 어제보다 
+               10분더 공부
+     </ul>
+   </div>
+   <div class="footbox flickr">
+    <h2>TOP 6 문제집</h2>
+    <ul>
+      <li><a href="#"><img src="images/demo/80x80.gif" alt="스" /></a></li>
+      <li><a href="#"><img src="images/demo/80x80.gif" alt="파" /></a></li>
+      <li><a href="#"><img src="images/demo/80x80.gif" alt="르" /></a></li>
+      <li><a href="#"><img src="images/demo/80x80.gif" alt="타" /></a></li>
+      <li><a href="#"><img src="images/demo/80x80.gif" alt="코" /></a></li>
+      <li><a href="#"><img src="images/demo/80x80.gif" alt="딩" /></a></li>
+    </ul>
+    <br class="clear" />
+  </div>
+  <div class="footbox posts">
+    <h2>etc</h2>
+    <ul>
+      <li><a href="https://www.instagram.com/off_benecia/?hl=ko"onclick="subject()">공지사항</a></li>
+      <li><a href="https://www.instagram.com/off_benecia/?hl=ko"onclick="subject()">문의사항</a></li>
+      <li><a href="https://www.instagram.com/off_benecia/?hl=ko"onclick="subject()">자주하는질문</a></li>
+      <li><a href="https://www.instagram.com/off_benecia/?hl=ko"onclick="subject()">연락처</a></li>
+      <li><a href="https://www.instagram.com/off_benecia/?hl=ko"onclick="subject()">주소</a></li>
+    </ul>
+  </div>
+  <div class="footbox banners last">
+    <h2>광고</h2>
+    <ul>
+      <li><a href="#"><img src="images/demo/200x150.gif" alt="오로나민C" /></a></li>
+      <li><a href="#"><img src="images/demo/200x150.gif" alt="스파르타 코딩" /></a></li>
+    </ul>
+  </div>
+  <br class="clear" />
+</div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col6">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2019 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
+</body>
+</html>
